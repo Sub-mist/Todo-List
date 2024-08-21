@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(162,87,211,1) 36%, rgba(231,56,89,1) 59%, rgba(0,0,0,1) 95%); 
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 420px;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper h2{
+    text-align: center;
+    color:rgb(0, 157, 255)
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.wrapper .form-control {
+    border-radius: 40px;
+    background: transparent;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+
+.wrapper .form-check-label {
+    color: white;
+}
+
+.wrapper .btn {
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    color: black;
+}
+
+.register-link a,.login-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.register-link a:hover,.login-link a:hover {
+    text-decoration: underline;
+}
